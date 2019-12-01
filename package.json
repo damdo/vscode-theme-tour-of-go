@@ -1,0 +1,27 @@
+{
+    "name": "TourOfGo",
+    "displayName": "TourOfGo",
+    "description": "Themes from tour.golang.org",
+    "version": "0.0.1",
+    "publisher": "damdo",
+    "icon": "icon.png",
+	  "repository": {
+        "type": "git",
+        "url": "https://github.com/damdo/vscode-theme-tour-of-go.git"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "TourOfGo",
+                "uiTheme": "vs",
+                "path": "./themes/tour_of_go.json"
+            }
+        ]
+    }
+}
